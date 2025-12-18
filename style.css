@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/bg_image.jpg);
+}
+.container{
+    height: 100px;
+    width: 100px;
+    color: rgba(0, 0, 0, 0.482);
+    background-color: rgba(0, 0, 0, 0.482);
+    border-radius: 10%;
+    border-style: solid;
+}
