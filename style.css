@@ -3,13 +3,15 @@
     padding: 0;
 }
 body{
+    display: grid;
     background-image: url(./images/bg_image.jpg);
+    place-items: center;
 }
 .container{
-    height: 100px;
-    width: 100px;
-    color: rgba(0, 0, 0, 0.482);
+    height: 500px;
+    width: 700px;
     background-color: rgba(0, 0, 0, 0.482);
-    border-radius: 10%;
     border-style: solid;
+    position: absolute;
+    top: 15vh;
 }
